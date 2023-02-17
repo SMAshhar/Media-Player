@@ -1,3 +1,4 @@
+import { TopProducers } from "components/top-producers"
 import { VStack, HStack } from "@chakra-ui/react"
 import { Sidebar } from "components/sidebar"
 import { SearchBar } from "components/search-bar"
@@ -30,7 +31,7 @@ export const Content= () => {
                     flex={1}
                 >
                    <TopPicks flex={1}/>
-                    {/* Top producer */}
+                    <TopProducers flexShrink={0}/>
                 </HStack>
 
 

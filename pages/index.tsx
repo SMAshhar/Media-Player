@@ -1,4 +1,6 @@
 import {VStack} from "@chakra-ui/react"
+
+import { Player } from "components/player"
 import { Content } from "components/content"
 
 
@@ -11,8 +13,7 @@ const IndexPage = () => (
       spacing={0}
     >
       <Content />
-      {/* {COntent} */}
-      {/* {Player} */}
+      <Player />
     </VStack>
 )
 
